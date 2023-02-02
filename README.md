@@ -1,7 +1,7 @@
 # cf-k8s-logging
 
 cf-k8s-logging contains the portions of cf-for-k8s which enable logging
-outcomes. See our [public roadmap](https://github.com/cloudfoundry/cf-k8s-logging/projects/1) to find out about our current efforts and future plans.
+outcomes. See our [public roadmap](https://github.com/yu-jin-song/cf-k8s-logging/projects/1) to find out about our current efforts and future plans.
 
 ## Configuration via values.yml
 

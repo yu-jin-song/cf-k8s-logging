@@ -1,4 +1,4 @@
-module github.com/cloudfoundry/cf-k8s-logging/examples/forwarder-golang
+module github.com/yu-jin-song/cf-k8s-logging/examples/forwarder-golang
 
 go 1.15
 

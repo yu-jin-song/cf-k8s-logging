@@ -72,7 +72,7 @@ resources:
   type: git
   source:
     branch: main
-    uri: git@github.com:cloudfoundry/cf-k8s-logging
+    uri: git@github.com:yu-jin-song/cf-k8s-logging
     private_key: ((cf-loggregator-oauth-bot-key))
     ignore_paths:
     - ci
@@ -82,7 +82,7 @@ resources:
   type: git
   source:
     branch: main
-    uri: git@github.com:cloudfoundry/cf-k8s-logging
+    uri: git@github.com:yu-jin-song/cf-k8s-logging
     private_key: ((cf-loggregator-oauth-bot-key))
     paths:
     - ci/**
@@ -99,14 +99,14 @@ resources:
   type: pull-request
   source:
     access_token: ((logging-github-access-token))
-    repository: cloudfoundry/cf-k8s-logging
+    repository: yu-jin-song/cf-k8s-logging
     disable_forks: true
 
 - name: cf-k8s-logging-version
   type: semver
   source:
     driver: git
-    uri: git@github.com:cloudfoundry/cf-k8s-logging.git
+    uri: git@github.com:yu-jin-song/cf-k8s-logging.git
     branch: main
     private_key: ((cf_k8s_logging_readwrite_deploy_key.private_key))
     git_user: "relint-ci <cf-release-integration@pivotal.io>"

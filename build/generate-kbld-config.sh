@@ -22,7 +22,7 @@ function generate_logging_kbld_config() {
 #@data/values
 ---
 git_ref: ${git_ref}
-git_url: https://github.com/cloudfoundry/cf-k8s-logging
+git_url: https://github.com/yu-jin-song/cf-k8s-logging
 EOF
 )
 
@@ -52,7 +52,7 @@ function generate_gateway_kbld_config() {
 #@data/values
 ---
 git_ref: ${git_ref}
-git_url: https://github.com/cloudfoundry/cf-k8s-logging
+git_url: https://github.com/yu-jin-song/cf-k8s-logging
 version:  ${version}
 EOF
 )

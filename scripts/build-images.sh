@@ -8,7 +8,7 @@ function buildAndReplaceImage {
     dockerfile=$3
     yttValuesRef=$4
 
-    docker build -t $REPOSITORY/$image:latest $srcFolder -f $srcFolder/$dockerfile --label "org.opencontainers.image.source=https://github.com/cloudfoundry/cf-k8s-logging.git" --label "org.opencontainers.image.revision=$(git rev-parse HEAD)"
+    docker build -t $REPOSITORY/$image:latest $srcFolder -f $srcFolder/$dockerfile --label "org.opencontainers.image.source=https://github.com/yu-jin-song/cf-k8s-logging.git" --label "org.opencontainers.image.revision=$(git rev-parse HEAD)"
 
     docker push $REPOSITORY/$image:latest
 

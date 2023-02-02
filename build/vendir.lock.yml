@@ -2,8 +2,8 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - git:
-      commitTitle: 'Merge pull request #5 from cloudfoundry/prometheus...'
-      sha: 35b578f86027750372852635a3a291f4caf04e09
+      commitTitle: 'Add influxdb plugin'
+      sha: 4e8bc1c0628333cd2b76321ce1483698f178f1d1
     path: .
   path: sources/cf-k8s-logging-fluent
 kind: LockConfig
