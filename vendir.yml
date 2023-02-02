@@ -9,5 +9,5 @@ directories:
       ref: v2.9.0
   - path: cf-k8s-logging-fluent
     git:
-      url: https://github.com/cloudfoundry/cf-k8s-logging-fluent
-      ref: 35b578f86027750372852635a3a291f4caf04e09
+      url: https://github.com/yu-jin-song/cf-k8s-logging-fluent
+      ref: 4e8bc1c0628333cd2b76321ce1483698f178f1d1
