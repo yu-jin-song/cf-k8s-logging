@@ -6,8 +6,8 @@ directories:
       sha: 847aac3a0a2e04153965adf76d73ff64dfbdd2c5
     path: log-cache
   - git:
-      commitTitle: prometheus plugin...
-      sha: 86fb30eb99baeb7b23e8900d364c08ef93cd9ebc
+      commitTitle: Add influxdb plugin
+      sha: 4e8bc1c0628333cd2b76321ce1483698f178f1d1
     path: cf-k8s-logging-fluent
   path: vendor
 kind: LockConfig
